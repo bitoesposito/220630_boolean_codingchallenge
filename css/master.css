@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+
+body {
+   background-image: url("../img/background.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+}
+
+main {
+  width: 80%;
+  height: 800px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: #00000090;
+  border-radius: 25px;
+}
+
+main > img {
+  max-width: 30%;
+  max-height: 125px;
+  margin: 25px 35% 0 35%;
+}
+
+main > h1 {
+  color: rgb(27, 219, 6);
+  margin: 5px 20% 0 20%;
+  font-size: 25px;
+  text-align: center;
+}
+
+main > nav, main > div {
+  padding: 5px;
+  margin: 10px 10% 0px 10%;
+}
+
+nav {
+  text-align: center;
+  background-color: rgb(27, 219, 6);
+  border-radius: 5px;
+}
+
+nav > input {
+  margin: 3px;
+}
+
+div > p:before {
+  content: "\279C";
+}
+
+main > div {
+  color: white;
+}
+
+div.option {
+  line-height: 5px;
+}
+
+div.option > h2 {
+  margin-left: 10px;
+  display: inline-block;
+  font-size: 25px;
+}
+
+div.charge {
+  height: 30px;
+  margin: 20px 0px 20px 0px;
+  border-radius: 5px;
+}
+
+#Gino22{
+    background-color: orange;
+    width: 40%;
+}
+
+#Mike24{
+    background-color: green;
+    width: 100%;
+}
+
+#Fede154{
+    background-color: red;
+    width: 20%;
+}
